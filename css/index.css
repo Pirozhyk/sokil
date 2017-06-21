@@ -1,13 +1,20 @@
-                                /*Верхнє меню для десктопу*/
+/*Верхнє меню для десктопу*/
+
+html {
+  background-color: #f4f5ff;
+}
+
 body {
   max-width: 1366px;
   width: 100%;
   margin: 0px;
 }
+
 .menu {
   background-color: #234c8e;
   height: 70px;
 }
+
 .header {
   display: inline-block;
   padding: 13px;
@@ -16,47 +23,290 @@ body {
   position: relative;
   top: 8px;
 }
-a {
-  text-decoration: none; 
-  color:#fff;
-  padding:10px; 
-  border-radius:4px; 
-  -moz-transition: all 0.3s 0.01s ease; 
-  -o-transition: all 0.3s 0.01s ease;
-  -webkit-transition: all 0.3s 0.01s ease;
-}
-a:hover {
-  background:#1C85BB;
-}
-li {
-  float:right; 
-  margin-left:5px; 
+
+.menu .header a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
   
 }
+
+.menu .header a:hover {
+  background: #1C85BB;
+}
+
+.menu li {
+  float: right;
+  margin-left: 5px;
+}
+
+
 /* Заголовок Sokil */
+
 .slide {
   width: 100%
 }
+
 #home {
   text-align: center;
   font-family: 'Slabo 27px', serif;
   font-size: 40px;
 }
+
 .under {
   text-align: center;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 30px;
 }
+
 .achiv {
   width: 45%;
-  margin-left:30px;
+  margin-left: 30px;
 }
+
 .achivv {
   width: 46%;
-  margin-left:45px;
+  margin-left: 45px;
 }
-.text2 {
-  text-align: right;
+
+.achivvv {
+  width: 46%;
+  margin-left: 45px;
+}
+
+#achieve {
+  text-align: left;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.hr {
+  border: none;
+  background-color: #294777;
+  color: #294777;
+  height: 4px;
+}
+
+.article {
+  text-align: left;
+  font-family: 'Advent Pro', sans-serif;
   font-size: 20px;
+}
+
+#logo {
+  text-align: left;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.first-logo {
+  float: left;
+  border: none;
+  width: 50%;
+}
+
+.first-uniform {
+  float: right;
+  border: none;
+  width: 50%;
+}
+
+.logos {
+  text-align: left;
+  text-align: justify;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 688px;
+}
+
+.logo a {
+  text-decoration: none;
+  padding-left: 22%;
+  font-family: 'Gafata', serif;
+  color: #294777;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+.logo a:hover {
+  color: red;
+}
+
+.behance {
+  width: 80px;
+  height: 80px;
+}
+
+#statistics {
+  text-align: left;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.leagues {
+  background-color: #ea0454;
+  height: 50px;
+  margin-top: -2%;
+}
+
+.hleagues {
+  display: inline-block;
+  padding: 0;
+  font-size: 25px;
+  font-family: 'Bubbler One', sans-serif;
+  position: relative;
+  top: 8px;
+}
+
+.leagues li {
+  float: left;
+  margin-left: 26%;
+}
+
+.leagues .hleagues a {
+  text-decoration: none;
+  font-family: 'Gafata', serif;
+  color: white;
+  font-size: 35px;
+  border-radius: 2px;
+}
+
+.leagues .hleagues a:hover {
+  background: #9b0338;
+}
+
+.stats {
+  width: 50%;
+  float: left;
+}
+
+.statss {
+  width: 50%;
+  float: right;
+}
+
+#videoreplays {
+  text-align: left;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.hrr {
+  margin-top: 75%;
+  border: none;
+  background-color: #294777;
+  color: #294777;
+  height: 4px;
+}
+
+.youtube {
+  padding-left: 10px;
+}
+
+.hrrr {
+  margin-top: 3%;
+  border: none;
+  background-color: #294777;
+  color: #294777;
+  height: 4px;
+  position: relative;
+}
+
+#links {
+  text-align: left;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+.here {
+  margin-top: -7%;
+  font-family: 'Almendra', serif;
+}
+
+.forlinks {
+  width: 80px;
+  height: 80px;
+  margin-left: 13%;
+}
+
+#contacts {
+  text-align: left;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  padding-left: 15px;
+}
+
+#contacts .contact {
+  float: left;
+  position: relative;
+}
+
+#contacts .contactright {
+  float: right;
+  margin-right: 15px;
+  position: relative;
+}
+
+.forms {
+  margin-top: 10%;
+  width: 40%;
   font-family: 'Julius Sans One', sans-serif;
+  font-size: 22px;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.forms .legend {
+  font-size: 25px;
+  font-family: 'Cinzel', serif;
+}
+
+textarea {
+  width: 80%;
+  resize: vertical;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+#yourname {
+  width: 80%;
+}
+
+#client-email {
+  width: 80%;
+}
+
+.submit {
+  background-color: #3ace00;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: #d62e00;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.map {
+  float: right;
+  margin-top: 0;
+  border-width: 2px;
+  margin-right: 10px;
 }
