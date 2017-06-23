@@ -13,8 +13,9 @@ body {
 
 .menu {
   
-  background-color: #234c8e;
+  background:linear-gradient( to bottom, #1b02fc, #49edfc);
   height: 70px;
+  
 }
 
 .header {
@@ -40,7 +41,7 @@ body {
 
 .menu .header a:hover {
   cursor: pointer;
-  background: #1C85BB;
+  background: linear-gradient(to left, #0731c6, #358fff);
 }
 
 .menu li {
@@ -52,7 +53,8 @@ body {
 /* Заголовок Sokil */
 
 .firstlogo .slide {
-  width: 100%
+  width: 100%;
+  
 }
 
 #home {
@@ -65,17 +67,37 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 50px;
-  color: white;
+  /*color: white;*/
+   /*-webkit-background-clip: text;*/
+  /*-webkit-text-fill-color: transparent;*/
   
  
-  
-  
 }
+ .sokil {
+    border: 0px solid silver;
+    padding: 2px;
+    background: linear-gradient(to right, #000970, #000000);
+    color: white;
+    opacity: 0.9;
+    border-radius: 10px;
+    font-family: 'Black Ops One', cursive;
+    
+  }
+  
+
 
 .under {
-  text-align: center;
+
   font-family: 'Julius Sans One', sans-serif;
   font-size: 30px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient( to bottom, #0c181c, #0cc4fc);
+  height: 70px;
+  margin-top: -5px;
+  align-items: center;
+  margin-bottom: -0.55%;
+  
 }
 
 .achiv {
@@ -134,11 +156,11 @@ body {
 
 .logos {
   text-align: left;
-  text-align: justify;
+  /*text-align: justify;*/
   font-family: 'Cinzel', serif;
   font-size: 20px;
   padding-left: 15px;
-  padding-right: 688px;
+  max-width: 40%;
 }
 
 .logo a {
@@ -157,6 +179,8 @@ body {
 .behance {
   width: 80px;
   height: 80px;
+  max-width: 10%;
+  max-height: 10%;
 }
 
 #statistics {
@@ -168,23 +192,27 @@ body {
 }
 
 .leagues {
-  background-color: #ea0454;
-  height: 50px;
+   background: linear-gradient( to bottom, #0c181c, #0cc4fc);
+  height: 70px;
   margin-top: -2%;
+
 }
 
 .hleagues {
-  display: inline-block;
-  padding: 0;
+ 
+  
   font-size: 25px;
   font-family: 'Bubbler One', sans-serif;
-  position: relative;
-  top: 8px;
+ 
 }
 
 .leagues li {
-  float: left;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
   margin-left: 26%;
+  padding-top: 17px;
+ 
 }
 
 .leagues .hleagues a {
@@ -193,20 +221,28 @@ body {
   color: white;
   font-size: 35px;
   border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .leagues .hleagues a:hover {
-  background: #9b0338;
+   background: linear-gradient( to top, #0c181c, #0cc4fc)
+}
+.all {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .stats {
-  width: 50%;
-  float: left;
+  width: 48%;
+  
 }
 
 .statss {
-  width: 50%;
-  float: right;
+  width: 48%;
+  
 }
 
 #videoreplays {
@@ -217,7 +253,7 @@ body {
 }
 
 .hrr {
-  margin-top: 75%;
+  margin-top: 2%;
   border: none;
   background-color: #294777;
   color: #294777;
@@ -246,45 +282,54 @@ body {
 }
 
 .here {
-  margin-top: -7%;
+ flex-wrap:wrap;
   font-family: 'Almendra', serif;
+  display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .forlinks {
   width: 80px;
   height: 80px;
-  margin-left: 13%;
+ 
 }
 
 #contacts {
-  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
   font-family: 'Cinzel', serif;
   font-size: 30px;
   padding-left: 15px;
 }
 
-#contacts .contact {
-  float: left;
+/*#contacts .contact {*/
+
   /*position: relative;*/
-}
+/*}*/
 
 #contacts .contactright {
-  float: right;
   margin-right: 15px;
   /*position: relative;*/
 }
 
 .forms {
-  margin-top: 10%;
-  float: left;
+  margin-top: 0;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 22px;
-  /*position: relative;*/
   margin-left: 10px;
-  width: 500px;
-  /*display: inline-block;*/
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  flex-wrap:wrap;
 }
-
+.forms .question {
+  /*display: flex;*/
+  /*justify-content: flex-start;*/
+  /*width: 47%;*/
+}
 .forms .legend {
   font-size: 25px;
   font-family: 'Cinzel', serif;
@@ -327,10 +372,12 @@ textarea {
 }
 
 .forms .map {
-  float: right;
   border-width: 2px;
   margin-right: 10px;
-  /*position: relative;*/
+  width: 45%;
+  /*display: flex;*/
+  /*justify-content: flex-end;*/
+  
  
   
 }
@@ -341,4 +388,44 @@ textarea {
   color: #294777;
   height: 4px;
   position: relative;
+}
+
+.video {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+}
+.cover {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width:800px){
+  .one {flex-wrap:wrap;}
+  .contact{ order:1;}
+  .contactright{order:3;}
+  .question {order:2;}
+  .map {order:4;}
+  
+
+  .first-logo {display: none;
+  }
+  .logos {
+    font-size: 15px;
+  }
+  .statss {display:none;}
+  .stats {width: 95%;}
+  #dsas {display:none;}
+  
+}
+
+
+@media screen and (max-width:500px){
+  .first-logo {display: none;}
+  .logos {
+    font-size: 10px;
+  }
 }
