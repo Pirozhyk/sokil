@@ -326,6 +326,7 @@ body {
   flex-wrap:wrap;
 }
 .forms .question {
+  
   /*display: flex;*/
   /*justify-content: flex-start;*/
   /*width: 47%;*/
@@ -374,7 +375,7 @@ textarea {
 .forms .map {
   border-width: 2px;
   margin-right: 10px;
-  width: 45%;
+  flex-basis:auto;
   /*display: flex;*/
   /*justify-content: flex-end;*/
   
@@ -405,10 +406,10 @@ textarea {
 
 @media screen and (max-width:800px){
   .one {flex-wrap:wrap;}
-  .contact{ order:1;}
-  .contactright{order:3;}
-  .question {order:2;}
-  .map {order:4;}
+   .one .contact{ order:1;}
+  .one .contactright{order:3;}
+  .one .question {order:2;}
+  .one .map {order:4;}
   
 
   .first-logo {display: none;
