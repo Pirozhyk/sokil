@@ -1,7 +1,6 @@
 /*Верхнє меню для десктопу*/
 
 html {
-  
   background-color: #f4f5ff;
 }
 
@@ -12,10 +11,8 @@ body {
 }
 
 .menu {
-  
-  background:linear-gradient( to bottom, #1b02fc, #49edfc);
+  background: linear-gradient( to bottom, #1b02fc, #49edfc);
   height: 70px;
-  
 }
 
 .header {
@@ -26,9 +23,6 @@ body {
   position: relative;
   top: 8px;
   bottom: 10px;
-
-  
-  
 }
 
 .menu .header a {
@@ -36,7 +30,6 @@ body {
   color: #fff;
   padding: 10px;
   border-radius: 4px;
-  
 }
 
 .menu .header a:hover {
@@ -54,40 +47,34 @@ body {
 
 .firstlogo .slide {
   width: 100%;
-  
 }
 
 #home {
- width: 100%;
+  width: 100%;
   height: 200px;
   background-image: url(../images/teamphoto3.jpg);
   background-position: center center;
-  padding-top:-40px;
+  padding-top: -40px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 50px;
   /*color: white;*/
-   /*-webkit-background-clip: text;*/
+  /*-webkit-background-clip: text;*/
   /*-webkit-text-fill-color: transparent;*/
-  
- 
 }
- .sokil {
-    border: 0px solid silver;
-    padding: 2px;
-    background: linear-gradient(to right, #000970, #000000);
-    color: white;
-    opacity: 0.9;
-    border-radius: 10px;
-    font-family: 'Black Ops One', cursive;
-    
-  }
-  
 
+.sokil {
+  border: 0px solid silver;
+  padding: 2px;
+  background: linear-gradient(to right, #000970, #000000);
+  color: white;
+  opacity: 0.9;
+  border-radius: 10px;
+  font-family: 'Black Ops One', cursive;
+}
 
 .under {
-
   font-family: 'Julius Sans One', sans-serif;
   font-size: 30px;
   display: flex;
@@ -97,7 +84,6 @@ body {
   margin-top: -5px;
   align-items: center;
   margin-bottom: -0.55%;
-  
 }
 
 .achiv {
@@ -140,6 +126,8 @@ body {
   font-family: 'Cinzel', serif;
   font-size: 30px;
   padding-left: 15px;
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
 }
 
 .first-logo {
@@ -179,8 +167,6 @@ body {
 .behance {
   width: 80px;
   height: 80px;
-  max-width: 10%;
-  max-height: 10%;
 }
 
 #statistics {
@@ -188,22 +174,17 @@ body {
   font-family: 'Cinzel', serif;
   font-size: 30px;
   padding-left: 15px;
- 
 }
 
 .leagues {
-   background: linear-gradient( to bottom, #0c181c, #0cc4fc);
+  background: linear-gradient( to bottom, #0c181c, #0cc4fc);
   height: 70px;
   margin-top: -2%;
-
 }
 
 .hleagues {
- 
-  
   font-size: 25px;
   font-family: 'Bubbler One', sans-serif;
- 
 }
 
 .leagues li {
@@ -212,7 +193,6 @@ body {
   align-items: center;
   margin-left: 26%;
   padding-top: 17px;
- 
 }
 
 .leagues .hleagues a {
@@ -227,8 +207,9 @@ body {
 }
 
 .leagues .hleagues a:hover {
-   background: linear-gradient( to top, #0c181c, #0cc4fc)
+  background: linear-gradient( to top, #0c181c, #0cc4fc)
 }
+
 .all {
   display: flex;
   justify-content: space-around;
@@ -237,12 +218,10 @@ body {
 
 .stats {
   width: 48%;
-  
 }
 
 .statss {
   width: 48%;
-  
 }
 
 #videoreplays {
@@ -282,32 +261,35 @@ body {
 }
 
 .here {
- flex-wrap:wrap;
+  flex-wrap: wrap;
   font-family: 'Almendra', serif;
   display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .forlinks {
   width: 80px;
   height: 80px;
- 
 }
 
 #contacts {
   display: flex;
   justify-content: space-between;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   font-family: 'Cinzel', serif;
   font-size: 30px;
   padding-left: 15px;
 }
 
+
 /*#contacts .contact {*/
 
-  /*position: relative;*/
+
+/*position: relative;*/
+
+
 /*}*/
 
 #contacts .contactright {
@@ -322,15 +304,16 @@ body {
   margin-left: 10px;
   display: flex;
   justify-content: space-between;
-  width:100%;
-  flex-wrap:wrap;
+  width: 100%;
+  flex-wrap: wrap;
 }
+
 .forms .question {
-  
   /*display: flex;*/
   /*justify-content: flex-start;*/
   /*width: 47%;*/
 }
+
 .forms .legend {
   font-size: 25px;
   font-family: 'Cinzel', serif;
@@ -375,13 +358,11 @@ textarea {
 .forms .map {
   border-width: 2px;
   margin-right: 10px;
-  flex-basis:auto;
+  flex-basis: auto;
   /*display: flex;*/
   /*justify-content: flex-end;*/
-  
- 
-  
 }
+
 .hr3 {
   margin-top: 10%;
   border: none;
@@ -398,35 +379,116 @@ textarea {
   margin: auto;
   align-items: center;
 }
+
 .cover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-@media screen and (max-width:800px){
-  .one {flex-wrap:wrap;}
-   .one .contact{ order:1;}
-  .one .contactright{order:3;}
-  .one .question {order:2;}
-  .one .map {order:4;}
-  
+@media screen and (max-width:1000px) {
+  .header {
+    font-size: 15px;
+  }
+  .menu {
+    height: 50px;
+  }
+  #home {
+    font-size: 40px;
+  }
+  .under {
+    font-size: 25px;
+  }
+}
 
-  .first-logo {display: none;
+@media screen and (max-width:800px) {
+  .one {
+    flex-wrap: wrap;
+  }
+  .one .contact {
+    order: 1;
+  }
+  .one .contactright {
+    order: 3;
+  }
+  .one .question {
+    order: 2;
+  }
+  .one .map {
+    order: 4;
+  }
+  #home {
+    font-size: 35px;
+  }
+  .header {
+    font-size: 10px;
+  }
+   .first-uniform {
+    width: 100%;
+  }
+  .logos {
+    padding-top: 24%;
+    font-size: 17px;
+    text-align: justify;
+    max-width: 80%;
+    margin-left: 10%;
+
+  }
+  .first-logo {
+    display: none;
   }
   .logos {
     font-size: 15px;
   }
-  .statss {display:none;}
-  .stats {width: 95%;}
-  #dsas {display:none;}
-  
+  .behance {
+    margin-left: 25%;
+  }
+  .statss {
+    display: none;
+  }
+  .stats {
+    width: 95%;
+  }
+  #dsas {
+    display: none;
+  }
 }
 
+@media screen and (max-width:450px) {
+ 
+ 
+  #home {
+    font-size: 27px;
+  }
+  /*.header {*/
+  /*  display: none*/
+  /*}*/
+  .under {
+    font-size: 15px;
+  }
+  #achieve {
+    font-size: 20px;
+    text-align: center;
+  }
+  #logo {
+    font-size: 20px;
+    text-align: center;
+  }
+  #statistics {
+    font-size: 20px;
+    text-align: center;
+  }
+  #videoreplays {
+    font-size: 20px;
+  text-align: center;
+  }
+}
 
-@media screen and (max-width:500px){
-  .first-logo {display: none;}
-  .logos {
-    font-size: 10px;
+@media screen and (max-width:490px) {
+  .header {
+    display: none
+  }
+  #home {
+    font-size: 25px;
   }
 }
