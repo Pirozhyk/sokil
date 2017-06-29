@@ -24,7 +24,9 @@ body {
   top: 8px;
   bottom: 10px;
 }
-
+.burger {
+  display: none;
+}
 .menu .header a {
   text-decoration: none;
   color: #fff;
@@ -88,18 +90,21 @@ body {
 }
 
 .achiv {
-  width: 45%;
-  margin-left: 30px;
+  width: 50%;
+ height: 50%;
+ 
+
 }
 
 .achivv {
-  width: 46%;
-  margin-left: 45px;
+   width: 50%;
+ height: 50%;
 }
 
 .achivvv {
-  width: 46%;
-  margin-left: 45px;
+   width: 50%;
+ height: 50%;
+
 }
 
 #achieve {
@@ -117,7 +122,9 @@ body {
 }
 
 .article {
-  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   font-family: 'Advent Pro', sans-serif;
   font-size: 20px;
 }
@@ -145,11 +152,11 @@ body {
 
 .logos {
   text-align: left;
-  /*text-align: justify;*/
+  text-align: justify;
   font-family: 'Cinzel', serif;
   font-size: 20px;
   padding-left: 15px;
-  max-width: 40%;
+  max-width: 47%;
 }
 
 .logo a {
@@ -281,10 +288,17 @@ body {
   flex-wrap: wrap;
   font-family: 'Cinzel', serif;
   font-size: 30px;
-  padding-left: 15px;
+  
 }
 
-
+#location {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+ 
+}
 /*#contacts .contact {*/
 
 
@@ -293,27 +307,19 @@ body {
 
 /*}*/
 
-#contacts .contactright {
-  margin-right: 15px;
-  /*position: relative;*/
-}
+
 
 .forms {
-  margin-top: 0;
+ 
   font-family: 'Julius Sans One', sans-serif;
   font-size: 22px;
-  margin-left: 10px;
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
 }
 
-.forms .question {
-  /*display: flex;*/
-  /*justify-content: flex-start;*/
-  /*width: 47%;*/
-}
+
 
 .forms .legend {
   font-size: 25px;
@@ -356,13 +362,13 @@ textarea {
   cursor: pointer;
 }
 
-.forms .map {
-  border-width: 2px;
-  margin-right: 10px;
-  flex-basis: auto;
+/*.forms .map {*/
+/*  border-width: 2px;*/
+/*  margin-right: 10px;*/
+/*  flex-basis: auto;*/
   /*display: flex;*/
   /*justify-content: flex-end;*/
-}
+/*}*/
 
 .hr3 {
   margin-top: 10%;
@@ -387,8 +393,31 @@ textarea {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.together {
+  display: flex;
+  justify-content: space-between;
+  
+}
 
+.text {
+  font-size: 30px;
+  text-align: center;
+  width: 30%;
+  
+}
 @media screen and (max-width:1000px) {
+  .together {
+  display: flex;
+  flex-wrap : wrap;
+
+}
+.text {
+  font-size: 20px;
+  text-align: center;
+  width: 30%;
+  
+}
+  
   .header {
     font-size: 15px;
   }
@@ -401,24 +430,28 @@ textarea {
   .under {
     font-size: 25px;
   }
+  #location {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
 }
-
+#contacts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+}
+.forms {
+  display: flex;
+  justify-content: center;
+}
+}
 @media screen and (max-width:800px) {
-  .one {
-    flex-wrap: wrap;
-  }
-  .one .contact {
-    order: 1;
-  }
-  .one .contactright {
-    order: 3;
-  }
-  .one .question {
-    order: 2;
-  }
-  .one .map {
-    order: 4;
-  }
+  
+  
   .no-border {
     /*width: 93%;*/
     /*height: 100%;*/
@@ -428,7 +461,11 @@ textarea {
     justify-content:center;
     align-items: center;
   }
+  .text {
+  font-size: 15px;
+  text-align: center;
   
+}
   #home {
     font-size: 35px;
   }
@@ -488,19 +525,26 @@ textarea {
     font-size: 25px;
   text-align: center;
   }
-  .mapp {
-    width: 100%;
-    height: 80%;
-    margin-top: 20px;
-  margin-left: 5%;
-  }
+  /*.mapp {*/
+  /*  width: 100%;*/
+  /*  height: 80%;*/
+  /*margin-left: 5%;*/
+  /*}*/
 }
 
 
 @media screen and (max-width:490px) {
-  
   .header {
     display: none
+  }
+  .burger
+  {
+    display: block;
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+    width: 9%;
+    height: 9%;
   }
   #home {
     font-size: 25px;
@@ -514,8 +558,11 @@ textarea {
     
   }
   
-/*  .map { display: none;*/
-/*}*/
+.together {
+  display: flex;
+  flex-wrap : wrap;
+  justify-content:center;
+}
 .logos {
     
     font-size: 17px;
@@ -572,9 +619,57 @@ textarea {
   font-size: 20px;
   }
   .mapp {
-    width: 90%;
-    height: 50%;
-    margin-top: 20px;
-  margin-left: 5%;
+    width: 100%;
+    height: 100%;
   }
+   #achieve {
+    font-size: 15px;
+    text-align: center;
+  }
+  #logo {
+    font-size: 15px;
+    text-align: center;
+  }
+  #statistics {
+    font-size: 15px;
+    text-align: center;
+  }
+  #videoreplays {
+    font-size: 15px;
+  text-align: center;
+  }
+  #links {
+    font-size: 15px;
+  text-align: center;
+  }
+  #contacts{
+    font-size: 15px;
+  text-align: center;
+  }
+  #location {
+    font-size: 15px;
+    text-align: center;
+  }
+  .achiv {
+  width: 100%;
+ height: 100%;
+
+}
+
+.achivv {
+   width: 100%;
+ height: 100%;
+}
+
+.achivvv {
+   width: 100%;
+ height: 100%;
+
+}
+.text {
+  font-size: 10px;
+  text-align: center;
+  width: 80%;
+  
+}
 }
