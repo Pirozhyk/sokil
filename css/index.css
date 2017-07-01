@@ -226,10 +226,12 @@ body {
 
 .stats {
   width: 48%;
+  height: 100%;
 }
 
 .statss {
   width: 48%;
+  height: 100%;
 }
 
 #videoreplays {
@@ -317,6 +319,7 @@ body {
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
+  
 }
 
 
@@ -506,6 +509,7 @@ textarea {
   }
   .stats {
     width: 95%;
+    height: 100%;
   }
   #dsas {
     display: none;
@@ -606,6 +610,7 @@ textarea {
   .forms {
     margin-left: 15px;
     width: 90%;
+    
   }
   .submit {
     background-color: #3ace00;
