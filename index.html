@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
     <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Almendra|Gafata|Cinzel|Black+Ops+One|Hammersmith+One|Julius+Sans+One|Advent+Pro|Merriweather|Paytone+One|Righteous|Roboto|Russo+One|Slabo+27px|Ultra|Federo" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <title>Sokil</title>
 </head>
 
 <body>
-   <nav class="menu"> <header>
+    <nav class="menu">
+        <header>
             <ul>
                 <li class="header"><a href=#contacts>Contact us</a></li>
                 <li class="header"><a href=#links>Links</a></li>
@@ -21,42 +25,151 @@
                 <li class="header"><a href=#achieve>Achievements</a></li>
                 <li class="header"><a href=#home>Home</a></li>
             </ul>
-        <img src="images/burger-menu.png" class="burger" alt="Burger menu icon">
-    </header>
+            <img src="images/burger-menu.png" class="burger" alt="Burger menu icon">
+        </header>
     </nav>
     <main id="home">
-        <h1 class="sokil">Sokil</h1>
+        <p class="sokil animated flipInX" >Sokil</p>
     </main>
     <div class="firstlogo">
         <img src="images/main.jpg" class="slide" alt="Sokil team logo" title="Logo">
-        <h3 class="under">Football team</h3>
+        <p class="under">Football team</p>
     </div>
     <!--<hr class="hr">-->
-    <div id="achieve">
-        <h2>Our achievements</h2>
+    <div>
+        <h2 id="achieve">Our achievements</h2>
     </div>
     <div class="article">
-        <img src="images/ultimate.jpg" class="achiv" alt="Sokil on ultimate cup" title="ultimate-cup">
-
         
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="images/ultimate.jpg" alt="Cat">
+        </div>
+
+        <div class="item">
+            <img src="images/ultimate2.jpg" alt="Chania">
+        </div>
+
+        <div class="item">
+            <img src="images/ultimate3.jpg" alt="Flower">
+        </div>
+        <div class="item">
+            <img src="images/ultimate4.jpg" alt="Flower">
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
         <article class="text">
-            <h3>3-rd place in tournament "Ultimate cup"</h3>
-            <p>Team squad: Holodyshyn Adrian (goalkeeper), Pirozhyk Ihor(captain), Shwarz Yura, Kechur Zoryan, Ardil Vitalik, Fedyna Severyn, Ivanytskiy Andriy</p>
+            <h3 class="heading">3-rd place in tournament "Ultimate cup"</h3>
+            <p class="text1">Team squad: Holodyshyn Adrian (goalkeeper), Pirozhyk Ihor(captain), Shwarz Yura, Kechur Zoryan, Ardil Vitalik, Fedyna Severyn, Ivanytskiy Andriy</p>
         </article>
-        <img src="images/philosophy-cup3.jpg" class="achivv" alt="Sokil on philosophy cup" title="tournament3">
+        <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel2" data-slide-to="1"></li>
+        <li data-target="#myCarousel2" data-slide-to="2"></li>
+        <li data-target="#myCarousel2" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="images/philosophy-cup3.jpg" alt="Cat">
+        </div>
+
+        <div class="item">
+            <img src="images/philosophy-cup2.jpg" alt="Chania">
+        </div>
+
+        <div class="item">
+            <img src="images/philosophy-cup.jpg" alt="Flower">
+        </div>
+        <div class="item">
+            <img src="images/philisophy-cup4.jpg" alt="Flower">
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
         <article class="text">
-            <h3>2-nd place in tournament "Mini football cup" </h3>
-            <p>Team squad: Kovalchuk Mykhailo (goalkeeper), Pirozhyk Ihor(captain), Kulyk Andriy, Kechur Zoryan, Zadorozhniy Nazar, Fedyna Severyn.</p>
+            <h3 class="heading">2-nd place in tournament "Mini football cup"</h3>
+            <p class="text1">Team squad: Kovalchuk Mykhailo (goalkeeper), Pirozhyk Ihor(captain), Kulyk Andriy, Kechur Zoryan, Zadorozhniy Nazar, Fedyna Severyn.</p>
         </article>
-        <img src="images/tournament3.jpg" class="achivvv" alt="Sokil on football in every court " title="tournament3">
+       <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel3" data-slide-to="1"></li>
+        <li data-target="#myCarousel3" data-slide-to="2"></li>
+        <li data-target="#myCarousel3" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="images/tournament3.jpg" alt="Cat">
+        </div>
+
+        <div class="item">
+            <img src="images/tournament2.jpg" alt="Chania">
+        </div>
+
+        <div class="item">
+            <img src="images/tournament.jpg" alt="Flower">
+        </div>
+        <div class="item">
+            <img src="images/tournament4.jpg" alt="Flower">
+        </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
         <article class="text">
-            <h3>4-th place in tournament "Football in every court"</h3>
-            <p> Team squad: Semion Volodymyr (goalkeeper), Pirozhyk Ihor (captain), Ivanytskiy Andriy, Ivanytskiy Yaroslav, Ardil Vitalik, Kechur Zoryan, Fedyna Severyn.</p>
+            <h3 class="heading">4-th place in tournament "Football in every court"</h3>
+            <p class="text1"> Team squad: Semion Volodymyr (goalkeeper), Pirozhyk Ihor (captain), Ivanytskiy Andriy, Ivanytskiy Yaroslav, Ardil Vitalik, Kechur Zoryan, Fedyna Severyn.</p>
         </article>
     </div>
     <hr class="hr">
-    <div id="logo">
-        <h2>Logo and football uniform</h2>
+    <div >
+        <h2 id="logo">Logo and football uniform</h2>
     </div>
     <div class="logo">
         <img class="first-logo" src="images/logo.jpg" alt="Sokil team logo" title="this is team logo">
@@ -67,34 +180,34 @@
             <a href="https://www.behance.net/gallery/45374155/SOKILfootball-team-logo"><img class="behance" src="images/behance.png" alt="behance icon"></a>
         </p>
     </div>
-    
+
     <hr class="hr3">
-    <div id="statistics">
-        <h2>Statistics</h2>
+    <div >
+        <h2 id="statistics">Statistics</h2>
     </div>
-    <div class="leagues" >
-        
-            <ul>
-                <li class="hleagues"><a href="#dsa">League 1</a></li>
-                <li class="hleagues"><a href="#dsas">League 2</a></li>
-            </ul>
-        </div>
-        <div class="all">
+    <div class="leagues">
+
+        <ul>
+            <li class="hleagues"><a href="#dsa">League 1</a></li>
+            <li class="hleagues"><a href="#dsas">League 2</a></li>
+        </ul>
+    </div>
+    <div class="all">
         <img src="images/1league10tour.jpg" class="stats" alt="Sokil 1 league 10 tour">
         <img src="images/2league10tour.jpg" class="statss" alt="Sokil 2 league 10 tour">
     </div>
     <hr class="hrr">
-    <div id="videoreplays">
-        <h2>Video replays</h2>
+    <div >
+        <h2 id="videoreplays">Video replays</h2>
     </div>
     <div class="video">
         <iframe width="435" height="315" src="https://www.youtube.com/embed/m6eVcHXtbd4" class="no-border" allowfullscreen></iframe>
         <iframe width="435" height="315" src="https://www.youtube.com/embed/bX9PfdNlaCE" class="no-border" allowfullscreen></iframe>
-        <iframe width="435" height="315" src="https://www.youtube.com/embed/A3vQM1eaQY8" class="no-border"  allowfullscreen></iframe>
+        <iframe width="435" height="315" src="https://www.youtube.com/embed/A3vQM1eaQY8" class="no-border" allowfullscreen></iframe>
     </div>
     <hr class="hrrr">
-    <div id="links">
-        <h2>Links</h2>
+    <div>
+        <h2 id="links">Links</h2>
         <p class="here">Here you can find us... Click on icon!
             <a href="https://www.youtube.com/channel/UCUp4y32r0gN9wapc3GO-Kuw"><img class="forlinks" src="images/youtube.png" alt="youtube icon"></a>
             <a href="https://www.facebook.com/groups/1066412406769936"><img class="forlinks" src="images/facebook.png" alt="facebook icon"></a>
@@ -102,36 +215,39 @@
         </p>
     </div>
     <hr class="hr">
-   <div class ="together">
+    <div class="together">
         <div id="contacts">
- <h2 class="contact">Contact us</h2>
-<div class="forms">
-        <form class="question" action="https://formspree.io/loveacmilan27@gmail.com" method="POST">
-            <fieldset>
-                <legend class="legend">Feel free to ask any questions</legend>
-                <label for="yourname">Your name</label>
-                <p><input type="text" id="yourname" name="my-name" placeholder="Your name" required /></p>
-                <label for="client-email">Your email</label>
-                <p><input id="client-email" type="email" name="my-email" placeholder="Your email" required /></p>
-                <label for="yourtext">Your message</label>
-                <p><textarea id="yourtext" placeholder="Your message..." required></textarea></p>
-                <input class="submit" type="submit" value="Send">
-                <input class="reset" type="reset" value="Reset">
-            </fieldset>
-        </form>
-        </div>
-            
-        </div>
-    <div id="location">
-        <h2 class="contactright">Our location</h2>
-        <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.0094335406775!2d23.953599378283158!3d49.82348789594141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5be70be9b04dfcfe!2z0KHRgtCw0LTQuNC-0L0gwqvQodC-0LrQvtC7wrs!5e0!3m2!1sru!2sua!4v1498007794677"
-          width="600" height="400" style="border:0" class="mapp" allowfullscreen></iframe>
-    </div>
-    </div>
-    </div>
-    
-   
+            <h2 class="contact">Contact us</h2>
+            <div class="forms">
+                <form class="question" action="https://formspree.io/loveacmilan27@gmail.com" method="POST">
+                    <fieldset>
+                        <legend class="legend">Feel free to ask any questions</legend>
+                        <label for="yourname">Your name</label>
+                        <p><input type="text" id="yourname" name="my-name" placeholder="Your name" required /></p>
+                        <label for="client-email">Your email</label>
+                        <p><input id="client-email" type="email" name="my-email" placeholder="Your email" required /></p>
+                        <label for="yourtext">Your message</label>
+                        <p><textarea id="yourtext" placeholder="Your message..." required></textarea></p>
+                        <input class="submit" type="submit" value="Send">
+                        <input class="reset" type="reset" value="Reset">
+                    </fieldset>
+                </form>
+            </div>
 
+        </div>
+        <div id="location">
+            <h2 id="contactright">Our location</h2>
+            
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.0094335406775!2d23.953599378283158!3d49.82348789594141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5be70be9b04dfcfe!2z0KHRgtCw0LTQuNC-0L0gwqvQodC-0LrQvtC7wrs!5e0!3m2!1sru!2sua!4v1498007794677"
+                    width="600" height="400" style="border:0" class="mapp" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
