@@ -12,39 +12,40 @@ body {
   
 }
 
-.menu {
-  background: linear-gradient( to bottom, #1b02fc, #49edfc);
-  height: 70px;
-}
+/*.menu {*/
+/*  background: linear-gradient( to bottom, #1b02fc, #49edfc);*/
+/*  height: 70px;}*/
 
-.header {
-  display: inline-block;
-  padding: 13px;
-  font-size: 25px;
-  font-family: 'Bubbler One', sans-serif;
-  position: relative;
-  top: 8px;
-  bottom: 10px;
+.list {
+  font-size: 17px;
+  font-family:  'Bubbler One', sans-serif;
 }
-.burger {
-  display: none;
+.navbar-brand {
+  font-size: 20px;
+  font-family: 'Black Ops One', cursive;
 }
-.menu .header a {
-  text-decoration: none;
-  color: #fff;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-.menu .header a:hover {
+/*.header {*/
+/*  display: inline-block;*/
+/*  padding: 13px;*/
+/*  font-size: 25px;*/
+/*  font-family: 'Bubbler One', sans-serif;*/
+/*  position: relative;*/
+/*  top: 8px;*/
+/*  bottom: 10px;*/
+/*}*/
+/*.burger {*/
+/*  display: none;*/
+/*}*/
+.list a:hover {
   cursor: pointer;
-  background: linear-gradient(to left, #0731c6, #358fff);
+  background: linear-gradient(to left,  #3c56fc, #352644);
 }
 
-.menu li {
-  float: right;
-  margin-left: 5px;
-}
+/*.navbar .nav {*/
+/*  background: linear-gradient(to left, #0731c6, #358fff);*/
+/*}*/
+
+
 
 
 /* Заголовок Sokil */
@@ -447,22 +448,29 @@ textarea {
   flex-wrap: wrap;
   width: 50%;
   height: 50%;
+  margin-bottom: 10px;
 }
 #myCarousel2 {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
   height: 50%;
+  margin-bottom: 10px;
 }
 #myCarousel3 {
   display: flex;
   flex-wrap: wrap;
   width: 50%;
   height: 50%;
+  margin-bottom: 10px;
 }
 .heading {
   font-size: 30px;
 }
+  /*#myNavbar{*/
+  /*  position: absolute;*/
+  /*  background:#262630;*/
+  /*}*/
 @media screen and (max-width:1000px) {
   .heading {
   font-size: 25px;
@@ -547,12 +555,11 @@ textarea {
     align-items: center;
   }
 }
-/*@media screen and (max-width:610px) {*/
-/*  .mapp {*/
-/*    width:100%;*/
-/*  }*/
-/*}*/
+
 @media screen and (max-width:800px) {
+  .hleagues {
+    display: none;
+  }
   .heading {
   font-size: 17px;
 }
@@ -664,9 +671,10 @@ textarea {
   #home {
     font-size: 35px;
     background-image: none;
-    background:linear-gradient( to bottom, #49edfc, #1b02fc);
+    background:linear-gradient( to left, #0d009e, #000000);
     height: 100px;
   }
+
   .under {
     height: 40px;
     font-size: 15px;
