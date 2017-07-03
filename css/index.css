@@ -477,7 +477,7 @@ textarea {
   /*  position: absolute;*/
   /*  background:#262630;*/
   /*}*/
-  .heres {
+  .heress {
      flex-wrap: wrap;
   font-family: 'Almendra', serif;
   display: inline-flex;
@@ -902,7 +902,7 @@ textarea {
 .text1 {
   font-size: 17px;
 }
-.heres {
+.heress {
      flex-wrap: wrap;
   font-family: 'Almendra', serif;
   display: inline-flex;
