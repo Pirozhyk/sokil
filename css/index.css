@@ -477,6 +477,16 @@ textarea {
   /*  position: absolute;*/
   /*  background:#262630;*/
   /*}*/
+  .heres {
+     flex-wrap: wrap;
+  font-family: 'Almendra', serif;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 25%;
+  width:50%;
+  font-size: 30px;
+  }
 @media screen and (max-width:1000px) {
   .thanks {
     width: 100%;
@@ -892,4 +902,14 @@ textarea {
 .text1 {
   font-size: 17px;
 }
+.heres {
+     flex-wrap: wrap;
+  font-family: 'Almendra', serif;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 15%;
+  width:70%;
+  font-size: 30px;
+  }
 }
